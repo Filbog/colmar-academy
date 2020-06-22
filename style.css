@@ -37,3 +37,40 @@ section{
     border-radius: 0;
     margin-top: 0.5rem;
 }
+
+@media (min-width: 768px){
+
+    .left img{
+        height: 48px;
+    }
+    .grey{
+        color: rgb(187, 179, 179);
+    }
+    .right ul{
+        list-style: none;
+    }
+    .right li{
+        padding-left: 12px;
+    }
+    .right a{
+        color: black;
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 1200px){
+    .banner{
+        padding: 2rem;
+    }
+    .my-container h3{
+        font-size: 3rem;
+    }
+    .my-container h5{
+        font-size: 2rem;
+    }
+    .my-container button{
+        font-size: 1.5rem;
+    }
+    .my-card{
+        display: flex;
+    }
+}
